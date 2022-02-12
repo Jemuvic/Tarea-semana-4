@@ -1,0 +1,80 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6%;
+    width: 100%;
+    background-color: #2DFADF;
+    color: black;
+ 
+}
+
+#encabezado h1 {
+    display: inline;
+    
+}
+.tamaño {
+    font-size: 40px;
+}
+
+.descripcion {
+    font-size: 24px;
+}
+
+#menu {
+    position: absolute;
+    top: 4%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #09A8AD;
+    color: black;
+ 
+}
+
+#menu a:visited {
+
+    color: blueviolet;
+ 
+}
+
+#menu a:hover {
+    background: green;
+    color: white;
+ 
+}
+
+#contenido {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 81%;
+    width: 80%;
+    background-color: #e8e8e7;
+    color: black;
+    overflow: auto;
+}
+
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    height: 5%;
+    width: 100%;
+    background-color: #333333;
+    color: whitesmoke;
+    overflow: auto;
+    text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
